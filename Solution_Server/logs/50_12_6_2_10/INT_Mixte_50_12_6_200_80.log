@@ -1,0 +1,108 @@
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_TimeLimit                               14400
+Tried aggregator 2 times.
+MIP Presolve eliminated 51678 rows and 495870 columns.
+MIP Presolve modified 2560 coefficients.
+Aggregator did 900 substitutions.
+Reduced MIP has 554564 rows, 125066 columns, and 1582689 nonzeros.
+Reduced MIP has 115066 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 5.36 sec. (5125.17 ticks)
+Probing time = 3.14 sec. (34.12 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 392000 rows and 7999 columns.
+Reduced MIP has 162564 rows, 117067 columns, and 798689 nonzeros.
+Reduced MIP has 115066 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 197.62 sec. (8953.26 ticks)
+Probing time = 2.22 sec. (25.71 ticks)
+Clique table members: 63469.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 5.62 sec. (664.12 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          874.0000      918.0000             5.03%
+      0     0      918.0000   398      874.0000      918.0000     2925    5.03%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=1
+*     0+    0                          913.0000      918.0000             0.55%
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=3
+      0     0      918.0000   428      913.0000     Cuts: 132     4618    0.55%
+      0     0      918.0000   213      913.0000      Cuts: 48     4916    0.55%
+      0     0      918.0000   401      913.0000     Cuts: 290     5926    0.55%
+      0     2      918.0000   145      913.0000      918.0000     5926    0.55%
+Elapsed time = 302.33 sec. (30480.67 ticks, tree = 0.02 MB, solutions = 2)
+      5     7      918.0000   156      913.0000      918.0000     5997    0.55%
+     10     4      918.0000   147      913.0000      918.0000     5966    0.55%
+     17    14      918.0000   247      913.0000      918.0000     6794    0.55%
+     34    31      918.0000   217      913.0000      918.0000     8841    0.55%
+     77    45      918.0000   252      913.0000      918.0000    12752    0.55%
+    120    82      918.0000   214      913.0000      918.0000    13227    0.55%
+    143   104      918.0000   329      913.0000      918.0000    17831    0.55%
+    168   140      918.0000   305      913.0000      918.0000    26940    0.55%
+    180   148      918.0000   283      913.0000      918.0000    32850    0.55%
+    414   353      918.0000   253      913.0000      918.0000    75769    0.55%
+Elapsed time = 365.22 sec. (33682.18 ticks, tree = 65.98 MB, solutions = 2)
+    868   629      918.0000   245      913.0000      918.0000    90237    0.55%
+   1367  1080      918.0000   187      913.0000      918.0000    98446    0.55%
+   1732  1445      918.0000   233      913.0000      918.0000   111026    0.55%
+   2184  1836      918.0000   189      913.0000      918.0000   121501    0.55%
+   2638  2023      918.0000   155      913.0000      918.0000   126552    0.55%
+   3121  2461      918.0000   158      913.0000      918.0000   144014    0.55%
+   3477  2552    infeasible            913.0000      918.0000   148164    0.55%
+   3767  2636    infeasible            913.0000      918.0000   152475    0.55%
+   4009  2732      918.0000   161      913.0000      918.0000   156977    0.55%
+   4215  2815      918.0000   144      913.0000      918.0000   163213    0.55%
+Elapsed time = 476.88 sec. (43250.86 ticks, tree = 2335.52 MB, solutions = 2)
+Nodefile size = 14.95 MB (4.51 MB after compression)
+   4443  2836      918.0000   130      913.0000      918.0000   167021    0.55%
+   4657  2875    infeasible            913.0000      918.0000   175135    0.55%
+   4841  2897      918.0000   129      913.0000      918.0000   179049    0.55%
+   5039  2947    infeasible            913.0000      918.0000   182810    0.55%
+   5238  2971      918.0000    96      913.0000      918.0000   184695    0.55%
+   5429  2990    infeasible            913.0000      918.0000   187921    0.55%
+   5569  2998      918.0000   115      913.0000      918.0000   188739    0.55%
+   5754  2994    infeasible            913.0000      918.0000   194325    0.55%
+   5927  3011      918.0000   134      913.0000      918.0000   198649    0.55%
+   6076  3019    infeasible            913.0000      918.0000   203239    0.55%
+Elapsed time = 561.49 sec. (52818.76 ticks, tree = 2470.30 MB, solutions = 2)
+Nodefile size = 15.30 MB (2.68 MB after compression)
+   6226  3031      918.0000   152      913.0000      918.0000   208999    0.55%
+   6357  3056    infeasible            913.0000      918.0000   213996    0.55%
+   6390  3071    infeasible            913.0000      918.0000   216455    0.55%
+   6483  3085      918.0000   161      913.0000      918.0000   218078    0.55%
+   6623  3099      918.0000   161      913.0000      918.0000   220845    0.55%
+   6759  3107    infeasible            913.0000      918.0000   222751    0.55%
+   6874  3143    infeasible            913.0000      918.0000   225802    0.55%
+   6993  3149    infeasible            913.0000      918.0000   226473    0.55%
+   7105  3173      918.0000   347      913.0000      918.0000   232291    0.55%
+*  7206+ 3144                          918.0000      918.0000             0.00%
+   7228  3206    infeasible            918.0000      918.0000   235712    0.00%
+Elapsed time = 710.34 sec. (62412.13 ticks, tree = 2197.43 MB, solutions = 3)
+Nodefile size = 84.10 MB (32.24 MB after compression)
+Exception raised in listener 'MipGapPrinter': 'int' object is not callable, id=62
+
+Clique cuts applied:  2
+Cover cuts applied:  29
+Implied bound cuts applied:  4199
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  68
+Zero-half cuts applied:  29
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =  295.16 sec. (30356.36 ticks)
+Parallel b&c, 32 threads:
+  Real time             =  420.68 sec. (32928.43 ticks)
+  Sync time (average)   =  316.75 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  715.84 sec. (63284.79 ticks)
+status  = integer optimal solution
+time    = 717.703 s.
+problem = MILP
+gap     = 0%
+
+Objective value: 918.0
+[50, 200, 12, 6, 364, 364, 918, 918, 0.0, 717.7]
